@@ -1,6 +1,7 @@
 import Flutter
 import UIKit
 
+@objc(DownloaderFlutterPlugin)
 public class DownloaderFlutterPlugin: NSObject, FlutterPlugin, FlutterStreamHandler {
     
     var eventSink: FlutterEventSink?
